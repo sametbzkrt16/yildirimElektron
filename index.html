@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektrik Teknisyeni</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #575757;
+        }
+        .section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+<img src="images/gorsel.jpg" alt="Sedat Yıldırım ">
+
+        <h1>Elektrik Teknisyeni</h1>
+        <p>Profesyonel Elektrik Çözümleri</p>
+    </header>
+    <nav>
+        <a href="#anasayfa">Anasayfa</a>
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+    <div id="anasayfa" class="section">
+        <h2>Hoş Geldiniz</h2>
+        <p>Elektrik tesisatlarınızda ve sistemlerinizde uzman bir teknisyen mi arıyorsunuz? Doğru yerdesiniz! Elektrik arızaları, montaj ve diğer teknik işlerde yanınızdayız.</p>
+    </div>
+    <div id="hizmetler" class="section">
+        <h2>Hizmetler</h2>
+        <ul>
+            <li>Elektrik Tesisatı Döşeme</li>
+            <li>Bakım ve Onarım Hizmetleri</li>
+            <li>Acil Durum Müdahale</li>
+            <li>LED Aydınlatma Sistemleri Kurulumu</li>
+        </ul>
+    </div>
+    <div id="hakkimizda" class="section">
+        <h2>Hakkımızda</h2>
+        <p>20 yıllık tecrübemiz ile bireysel ve ticari müşterilerimize hizmet sunuyoruz. Hedefimiz, kaliteli ve güvenilir elektrik hizmetleri sağlamaktır.</p>
+    </div>
+    <div id="iletisim" class="section">
+        <h2>İletişim</h2>
+        <p>Telefon:+90 534 960 81 99</p>
+        <form>
+            <label for="isim">İsim:</label><br>
+            <input type="text" id="isim" name="isim" required><br><br>
+            <label for="mesaj">Mesaj:</label><br>
+            <textarea id="mesaj" name="mesaj" rows="4" required></textarea><br><br>
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Elektrik Teknisyeni. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
